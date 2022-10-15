@@ -1,10 +1,3 @@
-<template>
-  <TheNavbar />
-  <div>
-    <ContentDoc />
-  </div>
-</template>
-
 <script setup>
 useHead({
   title: "Nuxt 3 Bulma Blog Template",
@@ -29,6 +22,13 @@ useHead({
 });
 </script>
 
+<template>
+  <TheNavbar />
+  <div>
+    <NuxtPage />
+  </div>
+</template>
+
 <style>
 html,
 body {
@@ -37,13 +37,16 @@ body {
   font-size: 14px;
   background: #f0f2f4;
 }
+
 a {
   color: #3e8ed0;
   transition: color 0.3s ease;
 }
+
 a:hover {
   color: #2d628f;
 }
+
 .navbar.is-white {
   background: #f0f2f4;
 }

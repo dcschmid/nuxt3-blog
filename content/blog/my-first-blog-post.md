@@ -1,6 +1,8 @@
 ---
-title: My First Blog Post
-episode: 482
+title: "My First Blog Post"
+author: "@bruno"
+dates:
+  published: "2022-05-01"
 ---
 
 # Sample Markdown
@@ -13,11 +15,13 @@ This is some basic, sample markdown.
   1. One
   2. Two
   3. Three
-- More
+- And more
 
 > Blockquote
 
-And **bold**, _italics_. [A link](https://markdowntohtml.com) to somewhere.
+And **bold**, _italics_.
+
+[A link](https://markdowntohtml.com)
 
 And code highlighting:
 
@@ -27,6 +31,8 @@ var foo = "bar";
 function baz(s) {
   return foo + ":" + s;
 }
+
+const msg = "hello";
 ```
 
 The end ...

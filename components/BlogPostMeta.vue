@@ -13,6 +13,7 @@ const props = defineProps({
     default: "info",
   },
 });
+
 const formattedDate = computed(() => {
   return new Date(props.date).toDateString();
 });
