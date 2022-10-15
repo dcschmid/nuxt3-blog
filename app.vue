@@ -1,7 +1,7 @@
 <template>
   <TheNavbar />
   <div>
-    <NuxtPage />
+    <ContentDoc />
   </div>
 </template>
 
