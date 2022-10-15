@@ -1,6 +1,6 @@
 ---
 title: "My First Blog Post"
-author: "@bruno"
+author: "@danschmid"
 dates:
   published: "2022-05-01"
 ---
